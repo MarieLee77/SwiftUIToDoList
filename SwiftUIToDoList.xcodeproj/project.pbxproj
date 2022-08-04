@@ -13,6 +13,7 @@
 		BD995A12289C6E7100583CFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD995A11289C6E7100583CFB /* Preview Assets.xcassets */; };
 		BD995A14289C6E7100583CFB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD995A13289C6E7100583CFB /* Persistence.swift */; };
 		BD995A17289C6E7100583CFB /* SwiftUIToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD995A15289C6E7100583CFB /* SwiftUIToDoList.xcdatamodeld */; };
+		BD995A1E289C745300583CFB /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD995A1D289C745300583CFB /* ToDoListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BD995A11289C6E7100583CFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD995A13289C6E7100583CFB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BD995A16289C6E7100583CFB /* SwiftUIToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUIToDoList.xcdatamodel; sourceTree = "<group>"; };
+		BD995A1D289C745300583CFB /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				BD995A0A289C6E7100583CFB /* SwiftUIToDoListApp.swift */,
 				BD995A0C289C6E7100583CFB /* ContentView.swift */,
+				BD995A1D289C745300583CFB /* ToDoListItem.swift */,
 				BD995A0E289C6E7100583CFB /* Assets.xcassets */,
 				BD995A13289C6E7100583CFB /* Persistence.swift */,
 				BD995A15289C6E7100583CFB /* SwiftUIToDoList.xcdatamodeld */,
@@ -146,6 +149,7 @@
 				BD995A14289C6E7100583CFB /* Persistence.swift in Sources */,
 				BD995A17289C6E7100583CFB /* SwiftUIToDoList.xcdatamodeld in Sources */,
 				BD995A0D289C6E7100583CFB /* ContentView.swift in Sources */,
+				BD995A1E289C745300583CFB /* ToDoListItem.swift in Sources */,
 				BD995A0B289C6E7100583CFB /* SwiftUIToDoListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
