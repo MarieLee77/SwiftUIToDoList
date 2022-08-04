@@ -20,7 +20,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 
-                Section(header: Text("New Item")){
+                Section(header: Text("Share your inner Art Goddess thought")){
                     HStack{
                         TextField("Enter new item...", text: $text)
                         
@@ -70,7 +70,7 @@ struct ContentView: View {
                 
             }
             
-            .navigationTitle("To Do List")
+            .navigationTitle("Art Goddess")
             
             }
 
